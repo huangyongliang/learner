@@ -1,0 +1,9 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    data-password: 1234
+    data-username: root
+    url: jdbc:mysql://127.0.0.1:3306/ssm
