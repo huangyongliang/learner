@@ -18,7 +18,7 @@ public class TestRun {
         a.setValue("hyl");
 
 //        ClassB b = (ClassB) BeanCopyUtil.bo2Do(a,ClassB.class);
-////        System.out.println(b.toString());
+//        System.out.println(b.toString());
 
         List<ClassA> lista = new ArrayList<>();
         lista.add(a);

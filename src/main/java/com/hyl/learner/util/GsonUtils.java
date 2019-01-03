@@ -8,11 +8,11 @@ import com.google.gson.Gson;
  */
 public class GsonUtils {
 
-    private static Gson gson = null;
+    private static Gson gson ;
 
     static {
-        if (gson==null)
             gson = new Gson();
+
     }
 
     private GsonUtils(){ }

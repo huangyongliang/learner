@@ -4,8 +4,8 @@ import lombok.Builder;
 import lombok.Data;
 
 /**
- * @Auther: jack
- * @Date: 2018/11/1 02:46
+ * @author : jack
+ * @date: 2018/11/1 02:46
  */
 @Data
 @Builder

@@ -8,5 +8,9 @@ package com.hyl.learner.async;
  */
 @FunctionalInterface
 public interface Task {
+    /**
+     * 执行任务
+     * @param order
+     */
     void execute(int order);
 }

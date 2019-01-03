@@ -16,7 +16,7 @@ import java.util.stream.IntStream;
 @Service
 public class TaskServiceImpl implements TaskService {
 
-    Logger logger = LoggerFactory.getLogger(TaskServiceImpl.class);
+    private Logger logger = LoggerFactory.getLogger(TaskServiceImpl.class);
 
     @Autowired
     private CommonTask commonTask;

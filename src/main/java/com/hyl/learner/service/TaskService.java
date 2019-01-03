@@ -6,5 +6,8 @@ package com.hyl.learner.service;
  */
 public interface TaskService {
 
+    /**
+     * 添加任务
+     */
     void addTask();
 }
